@@ -1,0 +1,39 @@
+.hero {
+    min-height: 300px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: right / contain url(./img/bluprint1.svg) no-repeat;
+}
+
+.hero__title {
+    margin-top: auto;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.my-card__title {
+    color: white;
+    height: 200px;
+}
+
+.my-card__title--work {
+    background-image: url('./img/pic1.jpeg');
+}
+
+.my-card__title--work2 {
+    background-image: url('./img/pic2.jpeg');
+}
+
+.my-card__title--work3 {
+    background-image: url('./img/pic3.jpg');
+}
